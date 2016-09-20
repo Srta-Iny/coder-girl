@@ -1,0 +1,72 @@
+/*header*/
+body { 
+	padding-top: 50px;
+}
+
+/*inicio*/
+#inicio{
+	background-image: url(../img/home.jpg);
+	background-position: 0% 10%;
+	height: 600px;
+}
+.caja1{
+	margin: 0 auto;
+	position: absolute;
+	right:0;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.caja1>h1{
+	color: #fff;
+}
+/*documental*/
+#documental{
+	padding: 5% 0;
+}
+#documental h2{
+	margin-bottom: 5%;
+}
+h3{
+	margin-bottom: 5%;
+}
+/*hackathon*/
+#hackathon{
+	background-color: yellow;
+	padding: 5% 0;
+}
+/*contacto*/
+#contacto{
+	padding: 5%
+}
+.box-form{
+	padding: 3%;
+	font-size: 16px;
+	margin: 1% 0;
+	width: 100%;
+	border: 2px solid #e0e0e0;
+	border-radius: 5px;
+}
+.box-mensaje{
+	background-color: transparent; 
+	padding: 3%;
+	font-size: 16px;
+	margin: 1% 0;
+	width: 100%;
+	height: 200px;
+	border: 2px solid #e0e0e0;
+	border-radius: 5px;
+}
+/*pie de pagina*/
+#pie{
+	padding: 3% 0;
+	background-color: #42a5f5;
+	color: #fff;
+}
+#pie a{
+	color: yellow;
+}
+.btn {
+	padding: 9px 15px;
+	font-size: 18px;
+}
